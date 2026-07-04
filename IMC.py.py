@@ -5,4 +5,14 @@ def IMC():
     IMC = weight / (height / 100) ** 2
     IMC = round(IMC,2)
     print ("hello that your IMC:", IMC)
+    
+    if IMC < 18.5: 
+        print ("Low weight")
+    elif IMC <=24.9: 
+        print ("Normal weight")
+    elif IMC <=29.9:
+        print ("Overweight")
+    else :    
+        print ("obesity")
+
 IMC()
